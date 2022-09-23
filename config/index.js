@@ -40,25 +40,6 @@ export const config = {
       openUrl: "https://www.bilibili.com"
     } 
   ],
-
-  /**
-   * 回调消息 相关，主要用来展示发送是否成功/失败的数据
-   */
-
-  // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "d_IzatxHSaQlAnXdU3g7VY7kB3DZshac_hlO1AHOLw",
-
-  // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
-  CALLBACK_USERS: [
-    {
-      // 一般都填自己
-      name: "小欧",
-      // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oLsOs5zJo3aCfTQXAzFEl2Z4RBUU",
-    }, 
-  ],
-    
-  /**
    * 信息配置
    */
 
